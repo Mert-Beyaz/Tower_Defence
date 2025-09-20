@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float shootingTime;
     [SerializeField] private float maxHp = 100;
     [SerializeField] private float hp = 100;
     [SerializeField] private Transform gun;
     [SerializeField] private Transform shootPoint;
+    [SerializeField] private float shootingTime;
 
     [Header("I Frame")]
     [SerializeField] private Color i_FrameColor;
